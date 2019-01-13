@@ -1,0 +1,9 @@
+# file: mysqlservers.yml
+- hosts: mysqlservers
+  become: true
+  strategy: free
+  become_user: root
+  roles:
+    - common
+    - mysqltier
+    - custom

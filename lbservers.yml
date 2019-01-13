@@ -1,0 +1,8 @@
+# file:lbservers.yml
+- hosts: lbservers
+  become: true
+  become_user: root
+  roles:
+    - common
+    - geerlingguy.haproxy
+    - custom

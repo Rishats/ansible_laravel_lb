@@ -1,0 +1,7 @@
+*
+!.gitignore
+!app1
+!app2
+!lbserver
+!mysqlserver
+!queueserver

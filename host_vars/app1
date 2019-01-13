@@ -1,0 +1,23 @@
+# Let's Encrypt settings
+enable_ssl: false
+letsencrypt_email: rihasultanov@gmail.com
+
+# Extra PHP packages
+php_extra_packages:
+    - php7.2-soap
+    - php7.2-intl
+    - php7.2-curl
+
+# PHP memory limit
+php_memory_limit: "1024M"
+
+# A list of virtual hosts.
+virtualhosts:
+  project:
+    servernames:
+    - muxaram.rishat-sultanov.ru
+
+# User for VPS
+system_user:
+  user_login: deployer
+  user_password: secret

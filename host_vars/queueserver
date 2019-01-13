@@ -1,0 +1,4 @@
+# User for VPS
+system_user:
+  user_login: deployer
+  user_password: secret

@@ -1,0 +1,5 @@
+# file: site.yml
+- import_playbook: mysqlservers.yml
+- import_playbook: queueservers.yml
+- import_playbook: lbservers.yml
+- import_playbook: webservers.yml

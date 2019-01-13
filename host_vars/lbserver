@@ -1,0 +1,11 @@
+# LB
+haproxy_backend_servers:
+  - name: app1
+    address: 130.193.43.220:80
+  - name: app2
+    address: 84.201.139.136:80
+
+# User for VPS
+system_user:
+  user_login: deployer
+  user_password: secret

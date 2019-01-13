@@ -1,0 +1,16 @@
+# MySQL
+mysql_root_password: homestead
+mysql_databases:
+  - name: nicnbk
+    encoding: utf8
+    collation: utf8_general_ci
+mysql_users:
+  - name: homestead
+    host: "%"
+    password: secret
+    priv: "homestead.*:ALL"
+
+# User for VPS
+system_user:
+  user_login: deployer
+  user_password: secret
